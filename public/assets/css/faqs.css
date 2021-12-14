@@ -1,0 +1,39 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    margin-right: 10px;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-bottom: 20px;
+
+}
+.titleFaq{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+.main{
+    width:80rem;
+    margin: 30px auto;
+    background-color:white;
+    border: 5px solid #444;
+    box-shadow:4px 4px grey;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
